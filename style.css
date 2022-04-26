@@ -1,63 +1,56 @@
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 body {
   background-color: black;
-  font-family: arial;
-  min-width: 100%;
-  min-height: 100%;
+  height: 100vh;
   overflow: hidden;
-  padding-top: 20vh;
 }
 
-.left-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#Layer_1 {
-  width: 30vw;
-}
-
-.right-column {
-  display: flex;
-  align-items: center;
+h1 {
+  font-family: arial;
+  font-size: 2vw;
+  color: white;
 }
 
 
-
-.flex-container {
-  width: 50%;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
+#title-treatment {
+  width: 40vw;
 }
 
-.social-icons ul {
-  width: 80%;
-  padding-left: 0px;
+#shirkers-badge {
+width: 40vw;
 }
 
-.social-icons li {
+ul {
   list-style-type: none;
+  margin-bottom: 0;
+}
+
+ul li{
   display: inline;
+}
+
+ul i{
   color: white;
 }
 
-.holding-text {
-  color: white;
+
+/* Style all font awesome icons */
+li {
+  width: 50px;
 }
 
-.holding-text h1 {
-  font-size: 28px;
+/* Add a hover effect if you want */
+fa-brands:hover {
+  color: rgb(206,162,10);
 }
 
-ul.social-icons {
-  width: 50%;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
+a {
+  text-decoration: none;
+}
+
+.col {
+  margin: 0;
 }
