@@ -10,17 +10,16 @@ body {
 
 h1 {
   font-family: arial;
-  font-size: 2vw;
+  font-size: 4vh;
   color: white;
 }
 
-
-#title-treatment {
-  width: 40vw;
+.title-treatment {
+  width: 100%;
 }
 
-#shirkers-badge {
-width: 40vw;
+.shirkers-badge {
+  width: 40vw;
 }
 
 ul {
@@ -43,7 +42,7 @@ li {
 }
 
 /* Add a hover effect if you want */
-fa-brands:hover {
+i:hover {
   color: rgb(206,162,10);
 }
 
@@ -53,4 +52,12 @@ a {
 
 .col {
   margin: 0;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col-sm-12 .shirkers-badge{
+  padding-top: 30px;
 }
